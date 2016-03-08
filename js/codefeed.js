@@ -65,6 +65,12 @@ google.load("feeds", "1");
 			
 		});
 
+		$("#feed").on("click","a",function(){
+			var $url=$(this).attr("href");
+			navigator.app.loadUrl($url, { openExternal:true });
+			return false;
+		});
+
 		$("#pagenew").on("click","li#showmenu-top",function(){
 			var $check=$(".menu-item-show-hide").css("display");
 			if($check=="none"){
