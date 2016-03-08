@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.news" version="1.0.0">
-  <name>News LQTdev</name>
-  <description>Ứng dụng xem tin tức.</description>
+  <name>News LQTdev Demo1</name>
+  <description>Demo 1.</description>
   <author href="http://colaxanh.blogspot.com" email="lqt.dev@gmail.com">LQTdev</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
