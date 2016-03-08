@@ -1,0 +1,145 @@
+a {
+	text-decoration: none;
+}
+
+ul li img {
+	height: 150px;
+	width: 250px;
+}
+
+body,#pagenew {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+#pagenew ul {
+	background: #fff;
+	width: 90%;
+	padding: 0px;
+	margin: 0px auto;
+	border-top: 3px solid #EB2332;
+}
+
+#pagenew ul li {
+	display:none;
+	background: #4cd;
+	float: left;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 5px;
+	width:100%;
+	text-align:center;
+	border: 1px solid #ccc;
+	cursor:pointer;
+}
+
+#pagenew ul li a {
+	font-size: 25px;
+	text-decoration: none;
+	color: #fff;
+	background: #4cd;
+}
+
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#feed {
+	margin: 0px auto;
+	margin-top: 10px;
+	width: 90%;
+}
+
+#feed ul {
+	border: none;
+	background: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+#feed ul li {
+	width: 100%;
+	background: #ECECEC;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
+	list-style: none;
+	border-top: 5px solid #4cd;
+	text-align: center;
+}
+
+#feed ul li a {
+	font-size: 20px;
+	color: blue;
+	margin-left: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#feed ul li h1 {
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#feed ul li p {
+	font-size: 20px;
+	margin-left: 0px;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+ul li.decs-news {
+	border-bottom: 2px solid #bcd;
+	padding: 0px;
+	margin:0px;
+}
+
+button{
+border:5px solid #bcd;
+	background:#4cd;
+	color:white;
+	font-size:50px;
+	margin-top:50px;
+	cursor:pointer;	
+}
+
+div#content-box-error {
+text-align:center;
+	color:#4cd;
+}
+
+#copyright {
+	text-align: center;
+	background: #ccc;
+	cursor: pointer;
+	height: 35px;
+	font-size: 25px;
+	width: 250px;
+	margin: 0px auto;
+	margin-top: 20px;
+	border-top: 5px solid #4cd;
+	border-right:1px solid #333;
+	border-left:1px solid #333;
+}
+
+#pagenew ul li#showmenu-top {
+	display: block;
+	background: #bbb;
+	font-size: 30px;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+#pagenew ul li#showmenu-top img {
+	height:20px;
+	width:25px;
+	margin-right:10px;
+}
